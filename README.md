@@ -2,7 +2,7 @@
 Network of routers connected to each other compiled by the Center for Applied Internet Data Analysis (CAIDA). Nodes are routers, and they are connected if they are directly connected via cables. 
 
 We consider these the following qiestions:
-## Network Structure:
+### Network Structure:
 
 1. *What is the current structure of the network?*
     - Is the network/graph directed or undirected? 
@@ -18,7 +18,7 @@ We consider these the following qiestions:
 	
 	
 	
-**(2) Network Comparison to other networks(Erdos-Renyi, Scalar Free):**
+### Network Comparison to other networks(Erdos-Renyi, Scalar Free):
 
 1. *Any similarities/differences between this network and other networks*
     - Critical exponent/phase transition? 
@@ -27,7 +27,7 @@ We consider these the following qiestions:
 
 
 	
-**(3) Centralities Analysis:**
+### Centralities Analysis:
    Centralities are a key concept in network analysis. They provide numerical values that help identify the most important nodes within a network. There are several types of centralities:
 
    - Degree Centrality: How many direct connections does a node have?
@@ -43,7 +43,7 @@ We consider these the following qiestions:
    Feel free to remove any centrality. Make a table of top 10 of these centralities and analyze what will happen to the network with removal of these nodes (see graph properties and connectivity).
 
 
-**(4) Community Detection:**
+### Community Detection:
    Community detection is about finding clusters or groups of nodes which are more densely connected to each other than to the rest of the network.
 
    - What are the communities within the network?
@@ -52,7 +52,7 @@ We consider these the following qiestions:
    - What are the characteristics of each community?
    
 
-**(5) Network Connectivity:**
+### Network Connectivity:
    Network connectivity refers to the minimum number of elements that need to be removed for a network to become disconnected.
 
    - How robust is the network against failures or attacks?
@@ -61,7 +61,7 @@ We consider these the following qiestions:
 
 
    
-**(6) Path Analysis:**
+### Path Analysis:
    Path analysis involves finding the paths between nodes in a network.
 
    - What are the shortest paths between nodes?
