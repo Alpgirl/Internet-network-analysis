@@ -4,26 +4,25 @@ Network of routers connected to each other compiled by the Center for Applied In
 We consider these the following qiestions:
 ### Network Structure:
 
-1. *What is the current structure of the network?*
-    - Is the network/graph directed or undirected? 
-    - How many edges are in the network?
-	- Degree, edge distribution
-    - Is the graph sparse or dense? Define sparse and why you chose this definition
-    - What is the average degree, nth moment, standard deviation in the network? 
-	- Does your network have cycles? Self-loops?
-	- Weighted or non-weighted?
-	- How many isolated components are there?
-	- plot/visualize network
-	- Graph properties (diameter, raduis, average distance, no of connected components, size of largest cluster, connectivity, clustering coefficient...)
+*What is the current structure of the network?*
+- Is the network/graph directed or undirected? 
+- How many edges are in the network?
+- Degree, edge distribution
+- Is the graph sparse or dense? Define sparse and why you chose this definition
+- What is the average degree, nth moment, standard deviation in the network? 
+- Does your network have cycles? Self-loops?
+- Weighted or non-weighted?
+- How many isolated components are there?
+- plot/visualize network
+- Graph properties (diameter, raduis, average distance, no of connected components, size of largest cluster, connectivity, clustering coefficient)
 	
 	
 	
 ### Network Comparison to other networks(Erdos-Renyi, Scalar Free):
 
-1. *Any similarities/differences between this network and other networks*
-    - Critical exponent/phase transition? 
-    - What are the possible mechanisms of network formation?
-	- use formulas from lecture for comparison e.g Lecture 3 pg 53 (Lecture 3 in general)
+*Any similarities/differences between this network and other networks*
+- Critical exponent/phase transition? 
+- What are the possible mechanisms of network formation?
 
 
 	
@@ -38,9 +37,7 @@ We consider these the following qiestions:
    - PageRank Centrality: Considering link direction and weight, how important is a node?
    - Harmonic Centrality: How easily can a node be reached from other nodes?
    - Percolation Centrality: How critical is a node for network connectivity?
-   
-   These are general definitions of centralities, but what do these centralities mean in our specific netork. E.g. router with highest degree centrality is on the longest.
-   Feel free to remove any centrality. Make a table of top 10 of these centralities and analyze what will happen to the network with removal of these nodes (see graph properties and connectivity).
+     
 
 
 ### Community Detection:
